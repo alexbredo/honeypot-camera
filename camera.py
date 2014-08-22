@@ -40,7 +40,7 @@ class CameraHandler(tornado.web.RequestHandler):
 			
 		# TODO: Do not process if current
 		cip = CameraImageProcessor("img/Lighthouse.jpg", "img/camera.jpg")
-		cip.process("CAM3: EDAG Facility Management", "(c) 2014 by EDAG Engineering AG")
+		cip.process("CAM3: COMPANY Facility Management", "(c) 2014 by COMPANY Engineering AG")
 		
 		img_filename = "img/camera.jpg"
 		for hk, hv in self.image_headers(img_filename).items():
@@ -59,7 +59,7 @@ class CameraHandler(tornado.web.RequestHandler):
 		
 class RootHandler(tornado.web.RequestHandler):
 	settings = { 
-		'title': 'EDAG Facility Management',
+		'title': 'COMPANY Facility Management',
 		'refresh': 5,
 	}
 	
