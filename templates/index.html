@@ -1,0 +1,14 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<title>{{ escape(page['title']) }}</title>
+		<META HTTP-EQUIV="refresh" CONTENT="{{ page['refresh'] }}" />
+		<link rel="stylesheet" type="text/css" href="/static/style.css">
+	</head>
+	<body>
+		<div id="camera">
+			<h2>{{ escape(page['title']) }} -- Security Observation Camera</h2>
+			<img src="/camera.jpg" alt="CAM3" />
+		</div>
+	</body>
+</html>

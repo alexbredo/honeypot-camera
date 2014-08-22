@@ -1,0 +1,9 @@
+body {
+	background-color: #CCC;
+}
+
+#camera {
+	height: 480px;
+	width: 640px;
+	margin: auto;
+}
